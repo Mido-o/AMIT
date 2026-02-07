@@ -1,4 +1,4 @@
-#include<stdio.h>
+/* #include<stdio.h>
 #include<stdint.h>
 
 void printBiggest(uint8_t, uint8_t);
@@ -29,7 +29,7 @@ void swapValues2(uint8_t*, uint8_t*);
 void swapValues3(uint8_t*, uint8_t*);
 void swapValues4(uint8_t*, uint8_t*);
 uint8_t isFirstMultipleOfSecond(int, int);
-int calc(int, int, char); // a for addition, s for subtraction, m for multiplication
+int calc(int, int, char); // a for addition, s for subtraction, m for multiplication 
 
 int main() {
 	printf("------Q1------\n");
@@ -70,7 +70,7 @@ int main() {
 	}
 	printf("\n");
 	
-	//printf("------Q10------\n");
+	printf("------Q10------\n");
 	
 	
 	printf("------------------------------------Bitwise------------------------------------\n");
@@ -95,11 +95,11 @@ int main() {
 	printf("------Q6------\n");
 	printf("The new value after swapping the 2nd and 6th bits of the number %d is: %d\n", num, swapBits(num, 1, 5));
 	
-	/*printf("------Q7------\n");
+	printf("------Q7------\n");
 	printf("Enter a 32 bit number: ");
 	uint32_t num32;
 	scanf("%d", &num32);
-	printf("The new number after reversing all the bytes of the number %d is: %d\n", num, reverseBytes(num32));*/
+	printf("The new number after reversing all the bytes of the number %d is: %d\n", num, reverseBytes(num32));
 	
 	printf("------Q8------\n");
 	printf("The new value after swapping all bits of the number %d is: %d\n", num, swapAllBits(num));
@@ -143,9 +143,9 @@ int main() {
 	printf("Enter two integers and an operation (+, -, *, /) to apply on: ");
 	scanf("%d %d %c", &a, &b, &operation);
 	printf("The result of %d %c %d is: %d\n", a, operation, b, calc(a, b, operation));
-}
+} */
 
-void printBiggest(uint8_t num1, uint8_t num2) {
+/* void printBiggest(uint8_t num1, uint8_t num2) {
 	if (num1 < num2) {
 		printf("%d is the biggest\n", num2);
 	} else if (num1 == num2) {
@@ -401,4 +401,4 @@ int calc(int val1, int val2, char operation) {
 			fprintf(stderr, "Invalid input. Please enter a valid operation.\n");
 			return -1;
 	}
-}
+} */
